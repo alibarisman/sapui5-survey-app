@@ -1,0 +1,25 @@
+<mvc:View 
+	controllerName="SurveyApp.controller.View" 
+	xmlns:html="http://www.w3.org/1999/xhtml" 
+	xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" 
+	xmlns="sap.m">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Open Survey"
+						subheader="Answer Questions" press="onPress">
+						<tileContent>
+							<TileContent footer="Survey App">
+								<content>
+									<ImageContent src="sap-icon://survey"/>
+								</content>
+							</TileContent>
+						</tileContent>
+					</GenericTile>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
